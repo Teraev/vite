@@ -1,0 +1,59 @@
+
+.create_button {
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: 50px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  .id {
+    width: 1%;
+    padding: 5px;
+  }
+  
+  .name_tab {
+    width: 20%;
+    padding: 5px;
+  }
+  
+  .marks {
+    width: 1%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .but_div {
+       display: flex;
+     
+  }
+
+  .buttons { 
+    width: 100px;
+    height: 20px;
+    display: flex;
+    border: 1px solid #c4c4c4;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    cursor: pointer;
+  }
